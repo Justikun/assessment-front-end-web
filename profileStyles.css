@@ -1,0 +1,105 @@
+#title {
+    display: flex;
+    justify-content: center;
+}
+content {
+    display:flex;
+    flex-direction: column;
+}
+
+/* .headings_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+} */
+
+.headings_container {
+    display: flex;
+    width: 600px;
+    margin:auto;
+    margin-top: 25px;
+    justify-content: space-between;
+    
+}
+
+.headings_container_text {
+    width: 300px;
+    height: 100px;
+}
+
+#skills_text {
+    width: 100%;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.87);
+    max-width: 1000px;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+  
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bottom-nav-divider {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: center;
+    border-bottom: 2px solid rgba(246, 229, 0, 0.87);
+}
+
+nav > div > ol >li > a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 30px;
+}
+
+nav > div > ol >li:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
+}
+
+.crumb {
+    margin-right: 2em;
+    display: inline;
+}
+
+img {
+    margin-left: 10px;
+    max-height: 120px;
+}
+
+#back_btn {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.favourite_btns {
+    background-color: rgba(246, 229, 0, 0.87);
+    margin-top: 60px;
+    margin-right: 10px;
+    padding: 15px 15px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.87);
+    border: none;
+    box-shadow: 5px 5px var(--box-shadow-color);
+    --box-shadow-color: rgba(0, 174, 199, 0.87);
+}
+
+.favourite_btns:hover {
+    background-color: rgba(0, 174, 199, 0.87);;
+    margin-top: 60px;
+    margin-right: 10px;
+    padding: 15px 15px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.87);
+    border: none;
+    box-shadow: 5px 5px var(--box-shadow-color);
+    --box-shadow-color: rgba(246, 229, 0, 0.87);
+}
